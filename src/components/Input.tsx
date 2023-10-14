@@ -1,10 +1,8 @@
-import React from 'react'
+import React, { FC } from 'react'
 import TextField from '@mui/material/TextField';
 
-const Input = () => {
+export const Input:FC = () => {
   return (
     <TextField id="standard-basic" label="Enter a country" variant="standard" />
   )
-}
-
-export default Input
+};
